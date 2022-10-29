@@ -8,8 +8,9 @@ export const block = (id) => API.post("/block", { id: id });
 export const unblock = (id) => API.post("/unblock", { id: id });
 export const fetchDiseaseListsById = (id) => API.get(`/disease/${id}`);
 export const fetchProductListsById = (id) => API.get(`/productlist/${id}`);
-export const LogIn = (formData) => API.post("/login", formData);
-export const SignUp = (formData) => API.post("/signup", formData);
+// export const LogIn = (formData) => API.post("/login", formData);
+export const RegisterUser = (formData) => API.post("/users", formData);
+export const Users = () => API.get("/users");
 export const LogOut = (refreshToken) =>
   API.post("/logout", { token: refreshToken });
 export const payment = (order) => API.post("/checkout", { cart: order });

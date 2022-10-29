@@ -268,5 +268,88 @@
       "symptoms": "Experiencing anxiety, irritability and nervousness.\\nHaving trouble sleeping.\\nLosing weight.\\nHaving an enlarged thyroid gland or a goiter.\\nExperiencing irregular menstrual periods or having your menstrual cycle stop.",
       "cure": "Remove all potential food allergens from your diet\\nSupplements like iodine, probiotics, and curcumin can do wonders for your thyroid.\\nReduce daily stress.\\nUse medicines prescribed by the doctor only"
     }
+  ],
+  "users": [
+    {
+      "id": "62454ddc7c1667a8b6a811e2",
+      "fname": "Vanga ",
+      "lname": "Nithin",
+      "email": "nithindev.v20@iiits.in",
+      "phno": "8686415169",
+      "password": "123",
+      "allow": true,
+      "admin": false
+    },
+    {
+      "id": "62454e587c1667a8b6a811e7",
+      "fname": "Shiva ",
+      "lname": "Rama Krishna",
+      "email": "shivaramakrishna.m20@iiits.in",
+      "phno": "8247595081",
+      "password": "123",
+      "allow": true,
+      "admin": false
+    },
+    {
+      "id": "6245608d01e9ced109f09560",
+      "fname": "Akash",
+      "lname": "Kumar",
+      "email": "akash639673@gmail.com",
+      "phno": "6396739099",
+      "password": "$123",
+      "allow": true,
+      "admin": false
+    },
+    {
+      "id": "6245744d8028912fcf06b177",
+      "fname": "Aritro",
+      "lname": "Ghosh",
+      "email": "ghosharitro66@gmail.com",
+      "phno": "7999541064",
+      "password": "123",
+      "allow": true,
+      "admin": true
+    },
+    {
+      "id": "6268dc47d28ae0054d11c6f3",
+      "fname": "ARITRO",
+      "lname": "GHOSH",
+      "email": "aritro.g20@iiits.in",
+      "phno": "7999541064",
+      "password": "123",
+      "allow": true,
+      "admin": false
+    },
+    {
+      "id": "6343ce32ddfe70bb7768d867",
+      "fname": "chinki",
+      "lname": "minki",
+      "email": "chinki7@gmail.com",
+      "phno": "1112221112",
+      "password": "123",
+      "allow": true,
+      "admin": false
+    },
+    {
+      "fname": "chinki",
+      "lname": "minki",
+      "email": "chinki70@gmail.com",
+      "phno": "1112221112",
+      "password": "123",
+      "allow": true,
+      "admin": false,
+      "id": "ocTaAkI"
+    },
+    {
+      "fname": "qwe",
+      "lname": "qwe",
+      "email": "qwe@gmail.com",
+      "password1": "123",
+      "password2": "123",
+      "phno": "7999541064",
+      "allow": true,
+      "admin": false,
+      "id": "JHLOxpz"
+    }
   ]
 }

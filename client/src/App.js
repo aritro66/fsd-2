@@ -17,26 +17,70 @@ import Success from "./pages/Success";
 import Orders from "./pages/Orders";
 import Doctors from "./pages/Doctors";
 function App() {
-  // const { loginin, admin } = useSelector((state) => state.authReducer);
+  const { loginin, admin } = useSelector((state) => state.authReducer);
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/product" element={<Products />} />
-        <Route path="/product/:id" element={<ProductInfo />} />
-        <Route path="/disease" element={<Diseases />} />
-        <Route path="/disease/:id" element={<DiseaseInfo />} />
-        <Route path="/myaccount" element={<MyAccount />} />
-        <Route path="/myaccount" element={<MyAccount />} />
-        <Route path="/cartlist" element={<CartList />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/orders" element={<Orders />} />
-        <Route path="/doctor" element={<Doctors />} />
-        <Route path="/success" element={<Success />} />
+        <Route
+          path="/"
+          element={!loginin ? <Landing /> : <Navigate to="/home" />}
+        />
+        <Route
+          path="/signup"
+          element={!loginin ? <Signup /> : <Navigate to="/home" />}
+        />
+        <Route
+          path="/login"
+          element={!loginin ? <Login /> : <Navigate to="/home" />}
+        />
+        <Route
+          path="/home"
+          element={loginin ? <Home /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/about"
+          element={loginin ? <About /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/product"
+          element={loginin ? <Products /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/product/:id"
+          element={loginin ? <ProductInfo /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/disease"
+          element={loginin ? <Diseases /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/disease/:id"
+          element={loginin ? <DiseaseInfo /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/myaccount"
+          element={loginin ? <MyAccount /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/cartlist"
+          element={loginin ? <CartList /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/admin"
+          element={loginin && admin ? <Admin /> : <Navigate to="/home" />}
+        />
+        <Route
+          path="/orders"
+          element={loginin ? <Orders /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/doctor"
+          element={loginin ? <Doctors /> : <Navigate to="/" />}
+        />
+        <Route
+          path="success"
+          element={loginin ? <Success /> : <Navigate to="/home" />}
+        />
       </Routes>
     </BrowserRouter>
   );
