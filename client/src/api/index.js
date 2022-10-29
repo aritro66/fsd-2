@@ -3,8 +3,8 @@ const API = axios.create({ baseURL: "http://localhost:8000" });
 
 export const fetchProductLists = () => API.get(`/productlist`);
 export const fetchDiseaseLists = () => API.get("/disease");
-export const fetchUsers = () => API.get("/admin");
-export const block = (id) => API.post("/block", { id: id });
+// export const fetchUsers = () => API.get("/admin");
+export const block = (id) => API.put("/block", { id: id });
 export const unblock = (id) => API.post("/unblock", { id: id });
 export const fetchDiseaseListsById = (id) => API.get(`/disease/${id}`);
 export const fetchProductListsById = (id) => API.get(`/productlist/${id}`);

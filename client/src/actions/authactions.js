@@ -8,7 +8,8 @@ export const login = (formData, router) => async (dispatch) => {
       (ele) =>
         ele.email === formData.email && ele.password === formData.password
     );
-    if (chk.length > 0) dispatch({ type: LOGIN, payload: chk[0] });
+    if (chk.length > 0 && chk[0].allow)
+      dispatch({ type: LOGIN, payload: chk[0] });
 
     router("/home");
   } catch (error) {

@@ -4,13 +4,16 @@ import {
   BLOCK,
   UNBLOCK,
 } from "../constants/actionTypes";
-import { fetchUsers, block, unblock } from "../api/index";
+import { Users, block, unblock } from "../api/index";
 
 export const UserList = () => async (dispatch) => {
   try {
-    const { data } = await fetchUsers();
+    const { data } = await Users();
     console.log(data);
-    dispatch({ type: FETCH_ALL_USERS, payload: data });
+    dispatch({
+      type: FETCH_ALL_USERS,
+      payload: data.filter((ele) => !ele.admin),
+    });
   } catch (error) {
     dispatch({ type: ERROR, error });
     console.log(error);
