@@ -13,7 +13,7 @@ export const RegisterUser = (formData) => API.post("/users", formData);
 export const Users = () => API.get("/users");
 export const LogOut = (refreshToken) =>
   API.post("/logout", { token: refreshToken });
-export const payment = (order) => API.post("/checkout", { cart: order });
-export const confirm = (order, email) =>
-  API.post("/confirm", { cart: order, email: email });
-// export const orders = (email) => API.post("/orders", { email: email });
+// export const payment = (order) => API.post("/checkout", { cart: order });
+export const confirm = (order, email, createdAt) =>
+  API.post("/orders", { order: order, email: email, createdAt: createdAt });
+export const orders = (email) => API.get(`/orders?email=${email}`);

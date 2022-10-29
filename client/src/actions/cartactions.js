@@ -23,7 +23,7 @@ export const desc = (id) => (dispatch) => {
   dispatch({ type: DESC, payload: { id: id } });
 };
 
-export const payall = (order, email) => async (dispatch) => {
-  const data = await confirm(order, email);
+export const payall = (order, email, createdAt) => async (dispatch) => {
+  const data = await confirm(JSON.stringify(order), email, createdAt);
   dispatch({ type: EMPTY_CART, payload: data });
 };

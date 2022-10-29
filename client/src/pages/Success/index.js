@@ -11,7 +11,7 @@ export default function Success() {
   const data = useSelector((state) => state.authReducer);
 
   useEffect(() => {
-    dispatch(payall(cartdata, data.email));
+    dispatch(payall(cartdata, data.email, new Date().toString()));
     const timeout = setTimeout(() => {
       navigate("/home");
     }, 1500);

@@ -351,5 +351,73 @@
       "admin": false,
       "id": "JHLOxpz"
     }
+  ],
+  "orders": [
+    {
+      "id": "6268d1f59b4cf0d510771aef",
+      "email": "nithindev.v20@iiits.in",
+      "order": "[{\"id\":\"626156abc99b46b879a56e81\",\"name\":\"A To Z Ns New Strip Of 15 Tablets\",\"img\":\"images/sp1.png\",\"price\":\"₹102.50\",\"quantity\":1}]",
+      "createdAt": "2022-04-27T05:17:41.117Z"
+    },
+    {
+      "id": "6268dc9bd28ae0054d11c6fa",
+      "email": "aritro.g20@iiits.in",
+      "order": "[{\"id\":\"626156abc99b46b879a56e81\",\"name\":\"A To Z Ns New Strip Of 15 Tablets\",\"img\":\"images/sp1.png\",\"price\":\"₹102.50\",\"quantity\":2}]",
+      "createdAt": "2022-04-27T06:03:07.678Z"
+    },
+    {
+      "id": "626dfb7efcf54a2d826674c9",
+      "email": "ghosharitro66@gmail.com",
+      "order": "[{\"id\":\"62615887c99b46b879a56e83\",\"name\":\"Dettol Antiseptic Liquid Bottle Of 1 L\",\"img\":\"images/sp4.png\",\"price\":\"₹298.27\",\"quantity\":1}]",
+      "createdAt": "2022-05-01T03:16:14.690Z"
+    },
+    {
+      "id": "626e37f30fa6fad23781c80b",
+      "email": "nithindev.v20@iiits.in",
+      "order": "[{\"id\":\"626156abc99b46b879a56e81\",\"name\":\"A To Z Ns New Strip Of 15 Tablets\",\"img\":\"images/sp1.png\",\"price\":\"₹102.50\",\"quantity\":3}]",
+      "createdAt": "2022-05-01T07:34:11.817Z"
+    },
+    {
+      "id": "635a53f667c0b6f4517732c3",
+      "email": "shivaramakrishna.m20@iiits.in",
+      "order": "[{\"id\":\"62615ec0c99b46b879a56e88\",\"name\":\"Volini Pain Relief Spray - 60 Gm\",\"img\":\"images/sp9.png\",\"price\":\"₹172.64\",\"quantity\":1}]",
+      "createdAt": "2022-10-27T09:48:38.711Z"
+    },
+    {
+      "id": "635bce57614196ec87237d2a",
+      "email": "ghosharitro66@gmail.com",
+      "order": "[{\"id\":\"626156abc99b46b879a56e81\",\"name\":\"A To Z Ns New Strip Of 15 Tablets\",\"price\":\"₹102.50\",\"uses\":\"A to Z NS tablet is used to treat vitamin and minerals deficiency.\\\\nTo improve the overall immunity, growth, and development of the body.\\\\nTo boost your energy and enhance healing.\",\"img\":\"images/sp1.png\",\"rating\":\"4\",\"desc\":\"A to Z NS tablet contains a combination of multivitamins, multiminerals, and lycopene. A to Z NS tablet is used to restore the decreased level of vitamins and minerals. It is essential for the overall growth and development of an individual. It also enhances healing, provides energy to perform daily activities, and improves immunity. Lycopene is an antioxidant that acts by improving healing and preventing cell damage. Take this tablet as advised by your doctor. Shake the bottle well, before each use\",\"quantity\":1},{\"id\":\"626157ebc99b46b879a56e82\",\"name\":\"Citzen 10mg Tablet\",\"price\":\"₹93.48\",\"uses\":\"Citzen Tablet is used to treat allergies associated with airways (allergic rhinitis) and Skin (urticaria).\",\"img\":\"images/sp3.png\",\"rating\":\"3\",\"desc\":\"Citzen Tablet is an anti-allergic medication and is used to treat symptoms associated with allergies such as itching, sneezing, watery eyes, running nose, rashes, and pale red bumps. It contains cetirizine as its active ingredient. Take as directed by the doctor and in doses and duration as prescribed. Side effects of the medicine are drowsiness, headache, weakness, and dry mouth. Most of them are temporary but if you feel the side effects persist or your condition worsens, you should contact the doctor immediately. Citzen Tablet should be used with caution in children and it is recommended to consult the doctor before using the medicine in pregnant and lactating women.\",\"quantity\":1}]",
+      "createdAt": "2022-10-28T12:43:03.847Z"
+    },
+    {
+      "id": "635bcf37614196ec87237d2f",
+      "email": "ghosharitro66@gmail.com",
+      "order": "[{\"id\":\"62615887c99b46b879a56e83\",\"name\":\"Dettol Antiseptic Liquid Bottle Of 1 L\",\"price\":\"₹298.27\",\"uses\":\"First aid disinfection through the topical application on cuts, scratches and wounds.\\\\nClothing disinfection through addition in the water while washing.\\\\nSurface and floor disinfection by adding 5ml of Dettol to a bucket of water.\\\\nUsed as a post-shaving disinfectant by diluting 15 ml Dettol liquid in 300ml of water.\",\"img\":\"images/sp4.png\",\"rating\":\"5\",\"desc\":\"Dettol Antiseptic Liquid is a topical liquid for cuts and wounds, as well as for maintaining home hygiene. Dettol liquid can also be used with proper dilution, to sanitize your home, toys and babywear by killing over 100 illness-causing germs. Recommended by the Indian Medical Association this antiseptic liquid from Dettol is also great for sanitizing home surfaces or adding to laundry to get rid of germs. Dettol Antiseptic Liquid should be an essential part of your first aid kit at home, this 1-litre bottle comes with a fresh pine scent.\",\"quantity\":1}]",
+      "createdAt": "2022-10-28T12:46:47.291Z"
+    },
+    {
+      "id": "635bcfb0614196ec87237d35",
+      "email": "ghosharitro66@gmail.com",
+      "order": "[{\"id\":\"626156abc99b46b879a56e81\",\"name\":\"A To Z Ns New Strip Of 15 Tablets\",\"price\":\"₹102.50\",\"uses\":\"A to Z NS tablet is used to treat vitamin and minerals deficiency.\\\\nTo improve the overall immunity, growth, and development of the body.\\\\nTo boost your energy and enhance healing.\",\"img\":\"images/sp1.png\",\"rating\":\"4\",\"desc\":\"A to Z NS tablet contains a combination of multivitamins, multiminerals, and lycopene. A to Z NS tablet is used to restore the decreased level of vitamins and minerals. It is essential for the overall growth and development of an individual. It also enhances healing, provides energy to perform daily activities, and improves immunity. Lycopene is an antioxidant that acts by improving healing and preventing cell damage. Take this tablet as advised by your doctor. Shake the bottle well, before each use\",\"quantity\":1}]",
+      "createdAt": "2022-10-28T12:48:48.652Z"
+    },
+    {
+      "id": "635bd22d614196ec87237d3a",
+      "email": "ghosharitro66@gmail.com",
+      "order": "[{\"id\":\"62615ce5c99b46b879a56e86\",\"name\":\"Revital H, 30 Capsules\",\"price\":\"₹310.00\",\"desc\":\"Revital H is a nutraceutical for daily health with a combination of 10 Vitamins, 9 Minerals and Ginseng in appropriate concentrations. It increases oxygen consumption in the body and helps to maintain energy & stamina through the day\",\"uses\":\"Energy: Ginseng, B-Vitamins and Iron helps support daily energy needs\\\\nMental Alertness: Ginseng improves mental alertness & concentration\\\\nReflex Mind: Ginseng helps in increasing your ability to handle stress\\\\nImmunity: Vitamins and Minerals helps improve your health & immunity\\\\nWellbeing: Keeps you active for your daily routine.Boosts immunity and energy\",\"img\":\"images/sp7.png\",\"rating\":\"3\",\"quantity\":1}]",
+      "createdAt": "2022-10-28T12:59:25.543Z"
+    },
+    {
+      "order": "[{\"id\":\"626156abc99b46b879a56e81\",\"name\":\"A To Z Ns New Strip Of 15 Tablets\",\"price\":\"₹102.50\",\"uses\":\"A to Z NS tablet is used to treat vitamin and minerals deficiency.\\\\nTo improve the overall immunity, growth, and development of the body.\\\\nTo boost your energy and enhance healing.\",\"img\":\"images/sp1.png\",\"rating\":\"4\",\"desc\":\"A to Z NS tablet contains a combination of multivitamins, multiminerals, and lycopene. A to Z NS tablet is used to restore the decreased level of vitamins and minerals. It is essential for the overall growth and development of an individual. It also enhances healing, provides energy to perform daily activities, and improves immunity. Lycopene is an antioxidant that acts by improving healing and preventing cell damage. Take this tablet as advised by your doctor. Shake the bottle well, before each use\",\"quantity\":1},{\"id\":\"626157ebc99b46b879a56e82\",\"name\":\"Citzen 10mg Tablet\",\"price\":\"₹93.48\",\"uses\":\"Citzen Tablet is used to treat allergies associated with airways (allergic rhinitis) and Skin (urticaria).\",\"img\":\"images/sp3.png\",\"rating\":\"3\",\"desc\":\"Citzen Tablet is an anti-allergic medication and is used to treat symptoms associated with allergies such as itching, sneezing, watery eyes, running nose, rashes, and pale red bumps. It contains cetirizine as its active ingredient. Take as directed by the doctor and in doses and duration as prescribed. Side effects of the medicine are drowsiness, headache, weakness, and dry mouth. Most of them are temporary but if you feel the side effects persist or your condition worsens, you should contact the doctor immediately. Citzen Tablet should be used with caution in children and it is recommended to consult the doctor before using the medicine in pregnant and lactating women.\",\"quantity\":1}]",
+      "email": "ghosharitro66@gmail.com",
+      "createdAt": "Sun Oct 30 2022 01:00:05 GMT+0530 (India Standard Time)",
+      "id": "Y6431ho"
+    },
+    {
+      "order": "[{\"id\":\"62615887c99b46b879a56e83\",\"name\":\"Dettol Antiseptic Liquid Bottle Of 1 L\",\"price\":\"₹298.27\",\"uses\":\"First aid disinfection through the topical application on cuts, scratches and wounds.\\\\nClothing disinfection through addition in the water while washing.\\\\nSurface and floor disinfection by adding 5ml of Dettol to a bucket of water.\\\\nUsed as a post-shaving disinfectant by diluting 15 ml Dettol liquid in 300ml of water.\",\"img\":\"images/sp4.png\",\"rating\":\"5\",\"desc\":\"Dettol Antiseptic Liquid is a topical liquid for cuts and wounds, as well as for maintaining home hygiene. Dettol liquid can also be used with proper dilution, to sanitize your home, toys and babywear by killing over 100 illness-causing germs. Recommended by the Indian Medical Association this antiseptic liquid from Dettol is also great for sanitizing home surfaces or adding to laundry to get rid of germs. Dettol Antiseptic Liquid should be an essential part of your first aid kit at home, this 1-litre bottle comes with a fresh pine scent.\",\"quantity\":2}]",
+      "email": "ghosharitro66@gmail.com",
+      "createdAt": "Sun Oct 30 2022 01:01:38 GMT+0530 (India Standard Time)",
+      "id": "WrJja0y"
+    }
   ]
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { deletecart, inc, desc } from "../../actions/cartactions";
-import { payment } from "../../api";
+// import { payment } from "../../api";
 import Cart from "../../components/CartList/Cart";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function CartList() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const cartdata = useSelector((state) => state.cartreducer.data);
   const handleDelete = (id) => {
     dispatch(deletecart(id));
@@ -20,10 +21,9 @@ export default function CartList() {
     dispatch(desc(id));
   };
 
-  const proceedToPay = async () => {
+  const proceedToPay = () => {
     try {
-      const { data } = await payment(cartdata);
-      window.location.href = data.url;
+      navigate("/success");
     } catch (error) {
       console.log(error);
     }
