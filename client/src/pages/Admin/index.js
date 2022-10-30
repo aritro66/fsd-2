@@ -11,11 +11,11 @@ export default function Admin() {
   }, []);
 
   const handleBlock = (id) => {
-    dispatch(BlockUser(id));
+    dispatch(BlockUser(id, data));
   };
 
   const handleUnBlock = (id) => {
-    dispatch(UnBlockUser(id));
+    dispatch(UnBlockUser(id, data));
   };
   console.log(data);
   return (

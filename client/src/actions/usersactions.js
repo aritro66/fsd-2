@@ -20,9 +20,10 @@ export const UserList = () => async (dispatch) => {
   }
 };
 
-export const BlockUser = (id) => async (dispatch) => {
+export const BlockUser = (id, data) => async (dispatch) => {
   try {
-    await block(id);
+    const user = data.filter((ele) => ele.id);
+    await block(id, user[0]);
     dispatch({ type: BLOCK, payload: id });
   } catch (error) {
     dispatch({ type: ERROR, error });
@@ -30,9 +31,10 @@ export const BlockUser = (id) => async (dispatch) => {
   }
 };
 
-export const UnBlockUser = (id) => async (dispatch) => {
+export const UnBlockUser = (id, data) => async (dispatch) => {
   try {
-    await unblock(id);
+    const user = data.filter((ele) => ele.id);
+    await unblock(id, user[0]);
     dispatch({ type: UNBLOCK, payload: id });
   } catch (error) {
     dispatch({ type: ERROR, error });
