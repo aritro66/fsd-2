@@ -55,7 +55,7 @@ export default function Footer({ styles }) {
             {" "}
             <i className="fas fa-arrow-right"></i> account info{" "}
           </Link>
-          <Link to="/myorder">
+          <Link to="/orders">
             {" "}
             <i className="fas fa-arrow-right"></i> ordered items{" "}
           </Link>
