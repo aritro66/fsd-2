@@ -16,6 +16,7 @@ export const login = (formData, router) => async (dispatch) => {
     );
     if (chk.length > 0 && chk[0].allow)
       dispatch({ type: LOGIN, payload: chk[0] });
+    else throw "unable to login";
 
     router("/home");
   } catch (error) {
