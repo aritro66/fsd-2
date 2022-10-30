@@ -1,5 +1,12 @@
-import { LOGIN, LOGOUT, SIGNUP, ERROR } from "../constants/actionTypes";
+import {
+  LOGIN,
+  LOGOUT,
+  SIGNUP,
+  ERROR,
+  UPDATE_USER,
+} from "../constants/actionTypes";
 const initialState = {
+  id: "",
   loginin: false,
   errors: null,
   fname: "",
@@ -15,6 +22,7 @@ export default function authReducer(state = initialState, action) {
       localStorage.setItem("profile", JSON.stringify({ ...action.payload }));
       return {
         ...state,
+        id: action.payload.id,
         loginin: true,
         fname: action.payload.fname,
         lname: action.payload.lname,
@@ -27,6 +35,7 @@ export default function authReducer(state = initialState, action) {
       localStorage.setItem("profile", JSON.stringify({ ...action.payload }));
       return {
         ...state,
+        id: action.payload.id,
         loginin: true,
         fname: action.payload.fname,
         lname: action.payload.lname,
@@ -40,6 +49,7 @@ export default function authReducer(state = initialState, action) {
       localStorage.removeItem("profile");
       return {
         ...state,
+        id: "",
         loginin: false,
         fname: "",
         lname: "",
@@ -48,6 +58,19 @@ export default function authReducer(state = initialState, action) {
         errors: null,
         admin: false,
       };
+    case UPDATE_USER:
+      localStorage.setItem("profile", JSON.stringify({ ...action.payload }));
+      return {
+        ...state,
+        id: action.payload.id,
+        loginin: true,
+        fname: action.payload.fname,
+        lname: action.payload.lname,
+        phno: action.payload.phno,
+        email: action.payload.email,
+        errors: null,
+        admin: action.payload.admin,
+      };
     case ERROR:
       return { ...state, error: action.error };
     default:
@@ -55,6 +78,7 @@ export default function authReducer(state = initialState, action) {
       else
         return {
           ...state,
+          id: JSON.parse(localStorage.getItem("profile")).id,
           loginin: true,
           fname: JSON.parse(localStorage.getItem("profile")).fname,
           lname: JSON.parse(localStorage.getItem("profile")).lname,

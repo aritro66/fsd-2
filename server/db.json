@@ -302,12 +302,12 @@
     },
     {
       "id": "6245744d8028912fcf06b177",
+      "loginin": true,
+      "errors": null,
       "fname": "Aritro",
       "lname": "Ghosh",
-      "email": "ghosharitro66@gmail.com",
       "phno": "7999541064",
-      "password": "123",
-      "allow": true,
+      "email": "ghosharitro66@gmail.com",
       "admin": true
     },
     {
