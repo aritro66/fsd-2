@@ -96,6 +96,17 @@ section {
   justify-content: space-between;
 }
 
+.usericon {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.product-review {
+  margin-top: 10px;
+}
+
 .header .header-1 .logo {
   font-size: 2.5rem;
   font-weight: bolder;

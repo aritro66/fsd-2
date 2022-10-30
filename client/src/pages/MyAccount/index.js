@@ -34,8 +34,6 @@ export default function MyAccount() {
           paddingRight: "17px",
           background: "rgba(0, 0, 0, 0.3)",
         }}
-        // ariaModal="true"
-        // role="dialog"
       >
         <div className="modal-dialog" role="document">
           <div className="modal-content">

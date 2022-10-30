@@ -419,5 +419,28 @@
       "createdAt": "Sun Oct 30 2022 01:01:38 GMT+0530 (India Standard Time)",
       "id": "WrJja0y"
     }
+  ],
+  "reviews": [
+    {
+      "id": "qew32",
+      "productid": "626156abc99b46b879a56e81",
+      "rating": "3",
+      "name": "Aritro Ghosh",
+      "description": "Good product and I’m satisfed with this product."
+    },
+    {
+      "id": "qew33",
+      "productid": "626156abc99b46b879a56e81",
+      "rating": "4",
+      "name": "Alex",
+      "description": "Nice!!"
+    },
+    {
+      "rating": "3",
+      "description": "brilliant",
+      "productid": "626156abc99b46b879a56e81",
+      "name": "Aritro Ghosh",
+      "id": "XQfaYGt"
+    }
   ]
 }
