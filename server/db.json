@@ -350,6 +350,18 @@
       "allow": true,
       "admin": false,
       "id": "JHLOxpz"
+    },
+    {
+      "fname": "shan",
+      "lname": "khan",
+      "email": "shan5@gmail.com",
+      "password1": "123",
+      "password2": "123",
+      "phno": "3999541064",
+      "password": "123",
+      "allow": true,
+      "admin": false,
+      "id": "6T8Q0US"
     }
   ],
   "orders": [

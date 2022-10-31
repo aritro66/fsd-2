@@ -23,7 +23,7 @@ export default function Signup() {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(signup({ ...form }, navigate));
+    dispatch(signup({ ...form, password: form.password1 }, navigate));
   };
 
   return (
