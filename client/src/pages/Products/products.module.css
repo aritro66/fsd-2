@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 
 :root {
+  --mint: #3D8361;
   --green: #27ae60;
   --dark-color: #219150;
   --black: #444;
@@ -168,7 +169,7 @@ section {
 }
 
 .header .header-2 {
-  background: var(--green);
+  background: var(--mint);
 }
 
 .header .header-2 .navbar {
@@ -1232,4 +1233,5 @@ section {
     display: grid;
     grid-template-columns: 1fr;
   }
-}
+} 
+

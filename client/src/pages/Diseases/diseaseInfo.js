@@ -26,14 +26,14 @@ export default function DiseaseInfo() {
           <strong>{data && data.name}</strong>
         </p>
 
-        {data && <img src={`/${data.image}`} />}
+        {data && <img className={diseaseStyles["img"]} src={`/${data.image}`} />}
         <p>
           <strong>Symptoms</strong>
         </p>
         <ul>
           {data && data.symptoms?.length > 0
             ? data.symptoms.split("\\n").map((ele) => {
-                return <li>{ele}</li>;
+                return <li>{ele.slice(1)}</li>;
               })
             : "None"}
         </ul>
@@ -43,12 +43,14 @@ export default function DiseaseInfo() {
         <ol>
           {data && data.cure?.length > 0
             ? data.cure.split("\\n").map((ele) => {
-                return <li>{ele}</li>;
+                return <li>{ele.slice(1)}</li>;
               })
             : "None"}
         </ol>
 
         <hr className={diseaseStyles["design"]} />
+        
+        
       </div>
       <Footer styles={Styles} />
     </>

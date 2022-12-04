@@ -14,7 +14,7 @@ export default function Navbar({ styles }) {
   return (
     <header className={styles.header}>
       <div className={styles["header-1"]}>
-        <Link to="#" className={styles.logo}>
+        <Link to="/" className={styles.logo}>
           {" "}
           <i className="fa fa-heartbeat"></i> Dr. Helpy
         </Link>
@@ -33,11 +33,9 @@ export default function Navbar({ styles }) {
               id={styles.toggleclick}
             ></Link>
             <div className={styles["dropdown-content"]}>
-              <Link to="/myaccount">My Acount</Link>
-              <Link to="" onClick={handleClick}>
-                Logout
-              </Link>
+              <Link to="/myaccount">My Acount</Link>             
               <Link to="/orders">My Orders</Link>
+              <Link to="" onClick={handleClick}>Logout</Link>
             </div>
           </div>
         </div>

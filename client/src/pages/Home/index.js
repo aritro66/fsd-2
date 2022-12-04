@@ -81,9 +81,8 @@ export default function Home() {
             <div className={homeStyles["icons"]}>
               <i className={`fas ${ele.class}`}></i>
               <div className={homeStyles["content"]}>
-                <Link to="#">
                   <h3>{ele.h3}</h3>
-                </Link>
+
                 <p>{ele.p}</p>
               </div>
             </div>
@@ -126,8 +125,8 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="image">
-          <img src="images/doctor_img.png" alt="" />
+        <div className={homeStyles["image"]}>
+          <img src="images/get appo.jpg" alt="" />
         </div>
       </section>
       <Footer styles={homeStyles} />
